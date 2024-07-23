@@ -6,7 +6,7 @@
     <title>Event Registeration</title>
 </head>
 <body>
-
+  <div>
     <form>
     <h2>Event Registeration</h2>
     <br>
@@ -22,10 +22,9 @@
     <br>
     <input type="tel" id="tel" name="tel">
     <br>
-
+    <br>
     <label for="occupation">Occupation</label>
     <br>
-
     <select id="occupation" name="occupation">
         <option name="Other"> Other</option>
         <option name="Doctor">Doctor</option>
@@ -33,25 +32,32 @@
     </select>
     <br>
     <br>
-    <label for="interest">Topic Of interest</label>
-    <br>
+</div>
+
+    <fieldset>
+        <legend> Topic of interest </legend>
+    <!-- <label for="interest">Topic Of interest</label> -->
+  
     <input type="checkbox" id="interest" name="checkbox" >
-    <br>
+    
     <label for="interest">HTML</label>
     <br>
     <input type="checkbox" id="interest1" name="checkbox1">
-    <br>
+   
     <label for="interest1">CSS</label>
     <br>
     <input type="checkbox" id="interest2" name="checkbox2">
-    <br>
+    
     <label for="interest2">Javascript</label>
-    <br>
+
+   </fieldset>
+
+   
     <br>
     <label for="comments">Comments</label>
     <br>
     <textarea id="comments" rows="10" cols="20"></textarea>
-    <br>
+ 
     <br>
     <button>Register</button>
 
